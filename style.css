@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+h1{
+	color: rgb(76,18,123);
+	background-color: rgba(255,0,125,.3); 
+}
+
+img{
+	position: absolute;
+	display:block;
+	margin: auto;
+}
+
+.abstract{
+	background-color: aqua;
+	color: azure;
+	padding:20px;
+	border: solid rgba(255,0,4,1);
+	margin: 25px;
+	text-align: center; 
+}
+
+.racoon{
+	background-color: darkslategray;
+	color: azure;
+	padding:20px;
+	border: solid rgba(76,18,123,1);
+	margin: 30px;
+	text-align: center;
+}
+.dogA {
+  background-image: url("dogA.png");
+
+  left: 279px;
+  top: 439px;
+ 
+}
+.catA {
+  background-image: url("catA.png");
+  
+  left: 931px;
+  top: 498px;
+ 
+}
+.dogB {
+  
+  left: 279px;
+  top: 439px;
+	width: 548px;
+		height: 499px;
+  opacity: 0;
+  transition: width 1s, height 1s, opacity 2s, left 3s; 
+	  
+}
+.dogB:hover{
+	width: 600px;
+	height: 325px;
+	opacity: 1;
+	left: 925px;
+	
+	
+}
+.catB {
+  background-image: url("catB.png");
+ 
+  left: 931px;
+  top: 498px;
+	width: 285px;
+	height: 227px;
+	opacity: 0;
+	transition: width 1s, height 1s, opacity 2s, top 3s;
+ 
+}
+
+.catB:hover{
+	width: 600px;
+	height: 325px;
+	opacity: 1;
+	top: 925px;
+}
+
+
